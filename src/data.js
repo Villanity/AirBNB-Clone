@@ -1,4 +1,4 @@
-export default [
+export default data = [
     {
         id: 1,
         title: "Life Lessons with Katie Zaferes",
