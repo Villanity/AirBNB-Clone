@@ -1,5 +1,4 @@
 import React from "react";
-import Professional from "../assets/images/katie-zaferes.png";
 import Star from "../assets/images/star.png";
 
 function Cards(props){
@@ -14,10 +13,10 @@ function Cards(props){
         <div className="Cards">
             {badgeText && <div className="card--badge">{badgeText}</div>}
             <div className="Img-Src">
-                <img src={props.item.coverImg} alt="" />
+                <img src={props.item.coverImg} alt="Cover Image" />
             </div>
             <div className="Card-Stats">
-            <img src={Star} alt="" className="Card-Star"/>
+            <img src={Star} alt="Star" className="Card-Star"/>
             <span>{props.item.stats.rating}</span>
             <span className="Gray">({props.item.stats.reviewCount}) • </span>
             <span className="Gray">{props.item.location}</span>
