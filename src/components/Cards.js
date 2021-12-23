@@ -13,10 +13,10 @@ function Cards(props){
         <div className="Cards">
             {badgeText && <div className="card--badge">{badgeText}</div>}
             <div className="Img-Src">
-                <img src={props.item.coverImg} alt="Cover Image" />
+                <img src={props.item.coverImg} alt="Some Random" />
             </div>
             <div className="Card-Stats">
-            <img src={Star} alt="Star" className="Card-Star"/>
+            <img src={Star} alt="Some Random" className="Card-Star"/>
             <span>{props.item.stats.rating}</span>
             <span className="Gray">({props.item.stats.reviewCount}) • </span>
             <span className="Gray">{props.item.location}</span>
