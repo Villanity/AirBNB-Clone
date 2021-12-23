@@ -14,7 +14,7 @@ function Cards(props){
         <div className="Cards">
             {badgeText && <div className="card--badge">{badgeText}</div>}
             <div className="Img-Src">
-                <img src={props.item.coverImg} />
+                <img src={props.item.coverImg} alt="" />
             </div>
             <div className="Card-Stats">
             <img src={Star} className="Card-Star"/>
