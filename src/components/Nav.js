@@ -5,7 +5,7 @@ import "../static/css/style.css";
 function Nav() {
   return (
       <div className="Nav-Main">
-        <img src={Logo} />
+        <img src={Logo} alt=""/>
       </div>
       
   )
