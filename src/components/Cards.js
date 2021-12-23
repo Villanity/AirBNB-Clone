@@ -17,7 +17,7 @@ function Cards(props){
                 <img src={props.item.coverImg} alt="" />
             </div>
             <div className="Card-Stats">
-            <img src={Star} className="Card-Star"/>
+            <img src={Star} alt="" className="Card-Star"/>
             <span>{props.item.stats.rating}</span>
             <span className="Gray">({props.item.stats.reviewCount}) • </span>
             <span className="Gray">{props.item.location}</span>
