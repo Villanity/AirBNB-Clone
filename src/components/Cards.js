@@ -2,8 +2,6 @@ import React from "react";
 import Professional from "../assets/images/katie-zaferes.png";
 import Star from "../assets/images/star.png";
 
-// This is the Cards Section
-
 function Cards(props){
     let badgeText
     if (props.item.openSpots === 0) {
